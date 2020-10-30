@@ -1,0 +1,8 @@
+.userPicture button {
+    font-weight: bold;
+}
+
+.userPicture * {
+    border: 3px lime dotted;
+    color: red;
+}

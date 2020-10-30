@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+// FILE:    App.js
+import React from 'react';
 import './App.css';
+import { UsersList } from './users-list/UsersList';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+export class App extends React.Component {
+  static versionList = "2.0.12";
+
+  render () {
+    return <div>
+              <label className="uVersion">Ver: {App.versionList}</label>
+              <div> 
+                ...
+                <UsersList></UsersList>
+              </div>
+
+           </div>
+  } // END render
 }
-
-export default App;

@@ -1,0 +1,45 @@
+/* FILE:    User.css     */
+
+.userInfo > div {
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.userInfo div {
+    flex-direction: column;
+}
+.userInfo strong {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.userInfo label {
+    font-size: 25px;
+}
+.userInfo button {
+    background-color: deepskyblue;
+    max-width: 180px;
+    height: 25px;
+    margin-top: 5px;;
+}
+
+.divInline {
+    display: inline;
+}
+
+.userInfo .inlineButton {
+    color: red;
+    /* display: flex; */
+}
+.userInfo .divInline {
+    display: flex;
+    flex-direction: row;
+}
+
+.userDemoException  {
+    color: red;
+    background-color: yellow;
+}
